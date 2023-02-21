@@ -22,14 +22,17 @@ public class Main {
 //        System.out.println(list);
 
         Linked lList = new Linked();
-        lList.addLast(30);
-        lList.addFirst(90);
-        lList.addFirst(70);
-        lList.addFirst(560);
-        lList.removeLast();
-        lList.contains(70);
-        lList.indexOf(70);
-        System.out.println(lList.contains(560));
+//        lList.addLast(30);
+//        System.out.println(lList.size());
+//        lList.addFirst(90);
+//        lList.addFirst(70);
+//        lList.addFirst(560);
+//        lList.removeLast();
+//        lList.contains(70);
+//        lList.indexOf(70);
+        lList.reverse();
+        var arr = lList.toArray();
+        System.out.println(Arrays.toString(arr));
     }
 }
 
